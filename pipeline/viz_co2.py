@@ -24,5 +24,5 @@ for idx, row in centrales.iterrows():
         mc.add_child(Marker([row['latitude'], row['longitude']]))
 m_1.add_child(mc)
 
-m_1.save('mymap.html')
-webbrowser.open('mymap.html', new=2)
+m_1.save('edgar_plant_map.html')
+webbrowser.open('edgar_plant_map.html', new=2)
